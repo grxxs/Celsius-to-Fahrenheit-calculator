@@ -1,1 +1,1 @@
-# Celsius-to-Fahrenheit-calculator
+First simple project while learning html, css and javascript
