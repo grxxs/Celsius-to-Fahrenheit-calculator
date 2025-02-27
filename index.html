@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature conversion</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="temperature">
+
+            <h1>Temperature conversion</h1><br>
+            <input type="number" id="myTemp"><br>
+
+            <div class="CtoF">
+
+                <input type="radio" id="celToFah" name="conv">
+                <label for="celToFah" id="labCtoF"></label>
+                <label for="celToFah" id="CtoFtext">Transform Celsius to Fahrenheit</label>
+
+            </div>
+
+            <div class="TtoC">
+
+                <input type="radio" id="fahToCel" name="conv">
+                <label for="fahToCel" id="labFtoC"></label>
+                <label for="fahToCel" id="FtoCtext">Transform Fahrenheit to Celsius</label>
+
+            </div>
+
+            <input type="submit" id="subBut" onclick="conversion()">
+
+            <p id="result"></p>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
